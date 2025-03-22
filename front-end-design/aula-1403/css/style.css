@@ -1,0 +1,30 @@
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    color: #276375;
+    font-size: 40px;
+}
+
+h2, h3, h4, h5, h6 {
+   font-family: "Poppins", sans-serif;;
+}
+
+img {
+    width: 300px;
+    border-radius: 8px 80px 8px 80px;
+}
+
+a {
+    color: #276375;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
+    transition: 1s;
+}
+
+a:hover {
+    color: #000000;
+    text-decoration: none;
+}
