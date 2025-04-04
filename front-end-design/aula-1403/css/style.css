@@ -1,30 +1,63 @@
-body{
-    font-family: "Montserrat", sans-serif;
+body {
+    font-family: "Poppins", sans-serif;    
 }
 
-h1 {
-    color: #276375;
-    font-size: 40px;
+h1  {
+    color: #172e8b;
+    font-size: 45px;
+    font-family: "Boldonse", system-ui;
 }
 
 h2, h3, h4, h5, h6 {
-   font-family: "Poppins", sans-serif;;
+    font-family: "Boldonse", system-ui;    
 }
 
-img {
-    width: 300px;
+ul, ol {
+    list-style: none;
+}
+
+.container-drone {
+    border: 2px solid #dc143c;
+    width: 400px;
+    min-height: 300px;
+    /* margin: 50px 100px 150px 250px; */
+    margin: 50px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.container-blue {background-color: #009;}
+.container-red {background-color: #900;}
+.container-green { background-color: #090;}
+
+.container-drone img {
+    width: 80%;
     border-radius: 8px 80px 8px 80px;
 }
 
 a {
-    color: #276375;
+    color: #dc143c;
     text-decoration: none;
     font-size: 20px;
     font-weight: 800;
-    transition: 1s;
+    transition: all .7s;
 }
 
 a:hover {
     color: #000000;
-    text-decoration: none;
+    text-decoration: underline;
 }
+
+.gradient {
+    background-image: linear-gradient(
+      290deg,
+      hsl(240deg 63% 13%) 0%,
+      hsl(233deg 73% 19%) 1%,
+      hsl(231deg 77% 26%) 9%,
+      hsl(232deg 78% 34%) 47%,
+      hsl(300deg 75% 22%) 78%,
+      hsl(333deg 52% 26%) 92%,
+      hsl(0deg 22% 25%) 100%
+    );
+  }
