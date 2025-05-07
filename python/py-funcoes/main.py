@@ -106,14 +106,36 @@
 
 #------------------------------
 
-def exibir_infos(**infos):
-    for chave, valor in infos.items():
-        print(f"{chave}, {valor}")
+#def exibir_infos(**infos):
+#    for chave, valor in infos.items():
+#        print(f"{chave}, {valor}")
 
-exibir_infos(nome="Ana", idade=25, cidade="São Paulo")
-print("---------")
-exibir_infos(produto="Notebook", preco=2500.00, marca="Dell")
+#exibir_infos(nome="Ana", idade=25, cidade="São Paulo")
+#print("---------")
+#exibir_infos(produto="Notebook", preco=2500.00, marca="Dell")
 
+#------------------------------
 
+#expressao = "4 + 3 * 3"
 
+#res = eval(expressao)
+#print(res)
 
+#------------------------------
+
+#x = 2
+#expressao = ('print(x + 3 * 5)')
+
+#eval(expressao, {}, {'x': x})
+
+#------------------------------
+
+code_str = """
+result = []
+for i in range(10):
+    if i % 2 == 0:
+        ,esult.append(i)
+print(result)
+"""
+# Usando eval para executar a string como código Python
+exec(code_str)
